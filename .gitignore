@@ -2,3 +2,6 @@
 ipch/
 *.o*
 *.vc*
+*.s*
+*Release/
+

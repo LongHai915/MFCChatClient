@@ -78,13 +78,11 @@ END_MESSAGE_MAP()
 
 
 // CMFCChatClientDlg 消息处理程序
-
 BOOL CMFCChatClientDlg::OnInitDialog()
 {
 	CDialogEx::OnInitDialog();
 
 	// 将“关于...”菜单项添加到系统菜单中。
-
 	// IDM_ABOUTBOX 必须在系统命令范围内。
 	ASSERT((IDM_ABOUTBOX & 0xFFF0) == IDM_ABOUTBOX);
 	ASSERT(IDM_ABOUTBOX < 0xF000);
@@ -137,7 +135,7 @@ BOOL CMFCChatClientDlg::OnInitDialog()
 	}
 	m_port = 5566;
 	UpdateData(FALSE);
-	m_loginUser = "abc2";
+	m_loginUser = "abc3";
 
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
